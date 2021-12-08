@@ -1,0 +1,226 @@
+body{ background-color : black; 
+       color : white;
+         }
+body { background-color :black; 
+       color : white;
+         }
+
+ 
+.skatelogo { margin : 2em ; 
+	         }
+
+
+
+.alignsign { padding-top : 9em; 
+	  font-size : 22px; 
+                                }
+
+.search {
+  
+  width: 550px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 32px;
+  background-color: white;
+  background-image: url('/Users/Michael-pc/Desktop/Project/Photos/searchicon.png');
+  background-position: 500px 9px  ; 
+  background-repeat: no-repeat;
+  padding: 10px 10px 10px  20px ;
+  }
+
+
+
+
+        
+#topnav { margin-left : 4em ;
+                 }
+ 
+#topnav ul {
+            cursor : pointer;              
+            list-style:none; 
+            position: relative;
+             z-index: 1000;
+            
+
+                        <!-- I removed the ul default -->
+             }
+
+#topnav ul li  {  
+         
+            text-align : center;
+            width : 280px; 
+            height : 46px;
+            float: left ;
+            font-size : 44px ;
+            font-weight: strong;
+            cursor : pointer;
+            
+            
+
+            
+                          <!-- Change what inside ul li -->
+             }
+
+#topnav ul li:hover {  color : #ff5800;
+                      text-decoration: underline  ;   
+                      
+
+         }
+
+*{ margin: 0px;     
+   padding:0px;  
+                       <!-- To make what inside skateboard and others under it -->   
+      }
+
+#topnav ul ul 
+   { display :none;
+     
+    
+      }
+ 
+
+#topnav ul li:hover >ul{
+                       display: block;
+		       color : white ;
+                    }
+ 
+
+
+
+#topnav ul ul li
+   { font-size : 38px ;
+     color : #ff5800; 
+   }
+
+#topnav ul ul li:hover
+   { text-decoration: none;
+     color : white ;
+      }
+.removeunder { text-decoration:none; 
+	       color:white;  
+                      }
+
+.removeunder:hover {  
+		     color : #ff5800;  }
+
+
+.alignphoto { margin-left : 1em; }
+ 
+#h1 {margin-top : 120px ;
+     margin-left : 40px ;
+     font-size : 40 ;      <!-- to make an indent for the title -->
+      }
+  
+#textphoto {
+     margin-left : 40px ;
+     font-size : 40px ; 
+     text-align : center;    
+     color :white ;        <!-- to align the text under the photo -->
+      
+            }
+
+
+
+#payphoto {
+        margin-left : 40px ;  
+        nargin-top : 130px ; 
+                      <!-- photo in the pay parts -->        
+              }
+
+ #info { margin-top :150px ; }
+ 
+ #nextphoto { font-size : 50px ;
+               }
+
+ .number { height : 50px ;
+            width : 300px ;
+            font-size : 25px ;
+            text-indent : 30em; } 
+
+  .quantity { font-size : 38px ;}     
+
+ .cart { margin-left: 24.7em ;
+        height  :50px ;
+        width :300px ; 
+        background-color: red;
+        color : white; 
+        font-size :30px;
+        border : none ;
+        cursor : pointer;
+        
+              }
+
+
+.cart:hover {  background-color : black ;
+                }
+  
+.alignemoji { margin-left : 25em; <!-- align the first emoji -->
+                   }
+ .textdescrip { font-size : 48px ;}
+
+ .offer { font-size :38px; 
+                    }
+.in { font-size : 35px ; }
+ .radio { height : 25px;
+          width : 25px; }
+ 
+ li  { text-indent : 1.5em ;
+         font-size : 32px ;  
+          }
+
+.footer { margin-left: 2em;
+	   }
+
+.hr {  
+      border : 3px solid ;
+	   } 
+
+.footersize { font-size : 34px;
+		 } 
+
+.footersize1 { font-size : 24px; 
+	       } 
+
+.footer1 { padding-left: 4em ; 
+	    border-right : 2px solid ;
+		 }
+
+.border { border-left: 2px solid; }
+
+.logo { margin-left: 3em; }
+
+.connect { text-indent : 2em; 
+	    font-size : 32px;
+		 }
+
+.emoji { padding-left: 4.7em ; 
+                    }
+
+input[type=email] { width : 400px ; 
+		    height : 50px; 
+                   box-sizing: border-box;
+ 	  	   border: 1px solid #ccc;
+  		   border-radius: 4px  ;
+ 		   font-size: 30px;  
+  		   border-top-left-radius: 5em;
+    	           border-bottom-left-radius: 5em;  
+             	   text-indent : .5em; }
+input[type=submit] { width : 60px ; 
+		    height : 50px; 
+                   box-sizing: border-box;
+ 	  	   border: 1px solid #ccc;
+  		   border-radius: 4px  ;
+ 		   font-size: 30px;  
+  		   border-top-right-radius: 5em;
+    	           border-bottom-right-radius: 5em;  
+             	   text-indent : .5em; 
+		   background-image: url('/Users/Michael-pc/Desktop/Project/Photos/newsletter.png');
+ 		   background-position: 12px 9px  ; 
+                   background-repeat: no-repeat;
+		   background-color : white ;}
+
+.join { margin-right: 7em; } 
+
+.table1 { border-right : 2px solid ; <!-- make a right border to the first table --> } 
+

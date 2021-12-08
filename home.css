@@ -1,0 +1,1166 @@
+
+
+
+
+body { background-color :black; 
+       color : white;
+       }
+ 
+.skatelogo { margin : 2em ; 
+	     transition: transform .2s; 
+    }
+
+
+.skatelogo:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.09); 
+  }
+
+.alignsign {padding-top : 9em;
+	      		   
+	    font-size : 22px; 
+                                }
+
+
+
+.signin { position: relative;
+	  left: 35%;
+	  top: -2em;  }
+
+
+        
+#topnav { margin-left : 4em ;
+                 }
+ 
+#topnav ul {
+            cursor : pointer;              
+            list-style:none; 
+            position: relative;
+             z-index: 2;
+           
+
+                        <!-- I removed the ul default -->
+             }
+
+#topnav ul li  {  
+         
+            text-align : center;
+            width : 280px; 
+            height : 46px;
+            float: left ;
+            font-size : 44px ;
+            font-weight: strong;
+            cursor : pointer;
+            padding: 2px; 
+	    margin-left: 4px;
+	    margin-top: 1.5px;  
+            
+
+            
+                          <!-- Change what inside ul li -->
+             }
+
+#topnav ul li:hover {  color : white;
+                      text-decoration: underline  ;   
+                      
+
+         }
+
+*{ margin: 0px;     
+   padding:0px;  
+                       <!-- To make what inside skateboard and others under it -->   
+      }
+
+#topnav ul ul 
+   { display :none;
+     
+    
+      }
+ 
+
+#topnav ul li:hover >ul{
+                       display: block;
+		       color : #ff5800;
+                    }
+ 
+
+
+
+#topnav ul ul li
+   { font-size : 38px ;
+     border: 1px solid white; 
+     text-align: center; 
+     text-indent: -.2em; 
+     background-color : black;
+      }
+
+
+
+#topnav ul ul li:hover
+   { text-decoration: none;
+     color : white ;
+     background-color :  #ff5800;
+      }
+.removeunder { text-decoration:none; 
+	       color:white;  
+                     }
+
+.removeunder:hover {  
+		     color : white;  }
+
+
+
+
+
+
+
+
+
+
+
+#topnav1 ul {
+            cursor : pointer;              
+            list-style:none;      
+            z-index: 10;
+            
+
+                        <!-- I removed the ul default -->
+             }
+
+#topnav1 ul li  {  
+         
+            text-align : center;
+            width : 200px; 
+            height : 38px;
+            float: left ;
+            font-size : 20px ;
+            font-weight: strong;
+            cursor : pointer;
+	     
+            
+            
+
+            
+                          <!-- Change what inside ul li -->
+             }
+
+
+.account { position: relative;
+	   top: -3.5em;
+	   left: 42%; 
+	    } 
+
+#topnav1 ul li:hover {  color : white;
+                      text-decoration: underline  ;   
+                      
+
+         }
+
+
+#topnav1 ul ul 
+   { display :none;
+     
+    
+      }
+ 
+
+#topnav1 ul li:hover >ul{
+                       display: block;
+		       color : white ;
+                    }
+ 
+
+
+
+#topnav1 ul ul li
+   { font-size : 20px ;
+     color : #ff5800; 
+   }
+
+#topnav ul ul li:hover
+   { text-decoration: none;
+     color : white ;
+      }
+
+
+
+
+
+
+
+
+#h2 {margin-top : 120px ;
+     margin-left : 40px ;
+     font-size : 40 ;  }
+
+
+
+ 
+#h1 {margin-top : 120px ;
+     margin-left : 40px ;
+     font-size : 40 ;  
+      transition: transform .2s;
+}
+
+#h1:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.12); 
+}
+  
+#textphoto {
+     margin-left : 40px ;
+     font-size : 40px ; 
+     text-align : center;    
+     color :white ;        <!-- to align the text under the photo -->
+      
+            }
+
+
+
+#payphoto {
+     	margin-top:2em; 
+        padding-left: 30px; 
+        transition: transform .2s;              <!-- photo in the pay parts -->        
+               }
+
+#payphoto:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.09); 
+  }
+
+ #info { margin-top :150px ; }
+ 
+ #nextphoto { font-size : 50px ;
+              }
+
+ .number { height : 50px ;
+            width : 300px ;
+            font-size : 25px ;
+            position: relative; 
+	    left: 48.7%;
+	     } 
+
+.number1 { height : 50px ;
+            width : 300px ;
+            font-size : 25px ;
+            position: relative; 
+	    
+	     } 
+
+.number2 { height : 50px ;
+            width : 300px ;
+            font-size : 25px ;
+            position: relative; 
+	    left:51%;
+	     } 
+
+  .quantity { font-size : 38px ;
+	      text-decoration: underline; 
+	      margin-left:51%; }    
+  .quantity1 { font-size : 38px ;
+	       text-indent: 19.5em;
+	       text-decoration: underline;  }   
+
+ .cart { 
+        height  :50px ;
+        width :300px ; 
+        background-color: red;
+	padding: 10px; 
+        color : white; 
+        font-size :30px;
+        border : none ;
+        cursor : pointer;
+        position: relative;
+	left: 48.7%;
+              }
+
+
+ .cart1 { 
+        height  :50px ;
+        width :300px ; 
+        background-color: red;
+	padding: 10px; 
+        color : white; 
+        font-size :30px;
+        border : none ;
+        cursor : pointer;
+        position: relative;
+	left:1.58em; 
+              }
+
+.cart1:hover {  background-color : black ; }
+
+ .cart2 { 
+        height  :50px ;
+        width :300px ; 
+        background-color: red;
+	padding: 10px; 
+        color : white; 
+        font-size :30px;
+        border : none ;
+        cursor : pointer;
+        position: relative;
+	left:51%; 
+              }
+
+.cart2:hover {  background-color : black ; }
+
+#thecart { position: relative; 
+	   top: -4.3em;
+	   left: 40%; 
+	   font-size : 20px;}
+
+
+
+.cart:hover {  background-color : black ;
+                }
+  
+.alignemoji { margin-left : 26.8em; <!-- align the first emoji -->
+                }
+
+
+ .textdescrip { font-size : 48px ;
+		}
+
+
+ .offer { font-size :38px; 
+                    }
+.in { font-size : 35px ; }
+ .radio { height : 25px;
+          width : 25px; }
+ 
+ li  { text-indent : 1.5em ;
+         font-size : 32px ;  
+          }
+
+.footer { margin-left: 2em;
+	   }
+
+.hr {  
+      border : 3px solid ;
+	   } 
+
+.footersize { font-size : 34px;
+		 } 
+
+.footersize1 { font-size : 24px; 
+	       } 
+
+.footer1 { padding-left: 4em ; 
+	    border-right : 2px solid ;
+		 }
+
+.border { border-left: 2px solid; }
+
+
+ 
+
+ 
+.logo { margin-left : 3em ; 
+	     transition: transform .2s; 
+    }
+
+
+.logo:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.02); 
+  }
+
+.alignsign {padding-top : 9em;
+	      		   
+	    font-size : 22px; 
+                                }
+
+.connect { text-indent : 2em; 
+	    font-size : 32px;
+		 }
+
+.emoji { padding-left: 4.7em ; 
+          }
+
+
+
+
+
+
+input[type=email] { width : 400px ; 
+		    height : 50px; 
+                   box-sizing: border-box;
+ 	  	   border: 1px solid #ccc;
+  		   border-radius: 4px  ;
+ 		   font-size: 30px;  
+  		   border-top-left-radius: 5em;
+    	           border-bottom-left-radius: 5em;  
+             	   text-indent : .5em; }
+input[type=submit] { width : 60px ; 
+		    height : 50px; 
+                   box-sizing: border-box;
+ 	  	   border: 1px solid #ccc;
+  		   border-radius: 4px  ;
+ 		   font-size: 30px;  
+  		   border-top-right-radius: 5em;
+    	           border-bottom-right-radius: 5em;  
+             	   text-indent : .5em; 
+		   background-image: url('/Users/User/Desktop/Project/Photos/newsletter.png');
+ 		   background-position: 12px 9px  ; 
+                   background-repeat: no-repeat;
+		   background-color : white ;}
+
+.join { margin-right: 7em; } 
+
+.table1 { border-right : 2px solid ; <!-- make a right border to the first table --> } 
+
+
+
+
+
+
+
+.size label {
+  font-size : 38px ;
+  width: 200px;
+  padding: 10px;
+  border: solid 2px #ccc;
+  
+}
+
+.size input[type="radio"] {
+  display: none;
+  }
+
+.size input[type="radio"]:checked + label {
+  border: solid 2px orangered ; 
+    }
+
+
+
+.story { font-size : 45px;
+	 margin-left: 2%; 
+	 margin-top: 1%;  }
+
+
+
+.thestory { font-size : 30px; 
+	    width : 41%;
+	    border: 1px solid white; 
+	    text-align: justify;
+	    padding: .5em; 
+	    float:left;  } 
+
+
+
+.ONDECK { font-size : 35px;
+	  color: #ff5800;; }
+
+
+
+.imageplace { margin-top: 5%;
+	      margin-left: 1%; } 
+
+
+.nextstoryimage { float: left;
+	    	  margin-left: 4em; } 	
+		  
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1450px;
+  position: relative;
+  margin: auto;
+
+  
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+
+
+
+/*the container must be positioned relative:*/
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+
+
+input[type=text0] {
+  border: 0px solid transparent;
+  width: 90%;  
+  border : 1px 
+  padding: 5px;
+  font-size: 28px;
+}
+
+
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 2000;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+  
+    }
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color:black; 
+  color: #ff5800;
+  border-bottom: 1px solid #d4d4d4; 
+}
+
+/*when hovering an item:*/
+.autocomplete-items div:hover {
+  background-color: white; 
+}
+
+/*when navigating through the items using the arrow keys:*/
+.autocomplete-active {
+  background-color: white ; 
+  color:  #ffffff; 
+}
+
+input[type=text1], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text1]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+  text-align: left; 
+  color: black; }
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 10; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+
+
+
+
+input[type=text2], input[type=password2] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  }
+
+/* Set a style for all buttons */
+button2 {
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button2:hover {
+  opacity: 1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn2 {
+  width: auto;
+  padding: 14px 18px;
+  background-color: #f44336;
+  
+   }
+
+/* Center the image and position the close button */
+.imgcontainer2 {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+
+
+.container2 {
+  padding: 16px;
+  text-align : left;
+  color: black;  }
+
+span.psw2 {
+  float: right; 
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 10; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal2-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close2 {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+
+
+.modal5 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 10; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #000000;
+padding-top: 50px;}
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal5-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+
+
+
+
+input[type=text2], input[type=password2] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  }
+
+/* Set a style for all buttons */
+button2 {
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button2:hover {
+  opacity: 1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn2 {
+  width: auto;
+  padding: 14px 18px;
+  background-color: #f44336;
+  
+   }
+
+/* Center the image and position the close button */
+.imgcontainer2 {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+
+
+.container2 {
+  padding: 16px;
+  text-align : left;
+  color: black;  }
+
+span.psw2 {
+  float: right; 
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 10; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal2-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close2 {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: #000000;
+  font-family:Cursive;
+}
+
+.shopping-cart {
+  width: 750px;
+  height: 423px;
+  margin: 80px auto;
+  background: #FFFFFF;
+  box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  height: 60px;
+  border-bottom: 1px solid #000000;
+  padding: 20px 30px;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+}
+ 
+.item {
+  padding: 20px 30px;
+  height: 120px;
+  display: flex;
+}
+ 
+.item:nth-child(3) {
+  border-top:  1px solid #E1E8EE;
+  border-bottom:  1px solid #E1E8EE;
+}
+
+.buttons12 {
+  position: relative;
+  padding-top: 30px;
+  margin-right:80px;
+}
+
+
+.is-active {
+  animation-name: animate;
+  animation-duration: .8s;
+  animation-iteration-count: 1;
+  animation-timing-function: steps(28);
+  animation-fill-mode: forwards;
+}
+ 
+@keyframes animate {
+  0%   { background-position: left;  }
+  50%  { background-position: right; }
+  100% { background-position: right; }
+}
+.image {
+  margin-right: 15px;
+  margin-left:-50px;
+  margin-top:-10px;
+  position:absolute;
+  right:66%;
+  
+}
+ 
+.description {
+
+  width: 300px;
+  position:absolute;
+  right:47%;
+  font-weight:500;
+}
+ 
+.description span {
+  font-size: 18px;
+  color: #000000;
+  font-weight: 500;
+  position:relative;
+  
+  
+}
+ 
+
+.quantity5 {
+  padding-top: 20px;
+  margin-right: 60px;
+  
+}
+.quantity5 input {
+  -webkit-appearance: none;
+  border: none;
+  text-align: center;
+  width: 32px;
+  font-size: 16px;
+  color: #43484D;
+  font-weight: 300;
+}
+ 
+button12[class*=btn] {
+  width: 30px;
+  height: 30px;
+  background-color: #FFFFFF;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+.minus {
+  margin-bottom: 3px;
+  position:absolute;
+  right: 37%;
+  top:40%;
+  background-color:white;
+}
+
+.plus {
+  margin-bottom: 3px;
+  position:absolute;
+  right: 33%;
+  top:40%;
+  background-color:white;
+
+}
+
+
+.minus1 {
+  margin-bottom: 3px;
+  position:absolute;
+  right: 37%;
+  top:61%;
+  background-color:white;
+}
+
+.plus1 {
+  margin-bottom: 3px;
+  position:absolute;
+  right: 33%;
+  top:61%;
+  background-color:white;
+}
+
+ 
+button12:focus,
+input12:focus {
+  outline:0;
+}
+
+.total-price {
+  width: 83px;
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
+  font-weight: 600;
+  position:absolute;
+  right:25%;
+  top:39%;
+}
+.total-price1 {
+  width: 83px;
+  padding-top: 27px;
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
+  font-weight: 600;
+  position:absolute;
+  right:25%;
+  top:56%;
+  }
+
+.inputnumber{
+	position:absolute;
+	right: 35%;
+	top:40%;}
+.inputnumber1{
+	position:absolute;
+	right: 35%;
+	top: 61%;
+	}
+@media (max-width: 800px) {
+  .shopping-cart {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  .item {
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .image img {
+    width: 20%;
+  }
+  .image,
+  .quantity5,
+  .description {
+    width: 100%;
+    text-align: center;
+    margin: 6px 0;
+	position:absolute;
+	right:60%;
+	font-weight:700;
+  }
+  .buttons {
+	  position:absolute;
+    margin-right: 20px;
+	right:40%;
+  }
+}
+.hr1{ border: 1px solid #000000;}
+
+
+
+
+
